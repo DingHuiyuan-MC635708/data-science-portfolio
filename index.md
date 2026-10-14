@@ -44,9 +44,17 @@ The association varies by period: r = **0.808** for 2015–2019, **0.770** for 2
 
 *Figure 3. All three subperiods show positive association, but different strengths. These are descriptive correlations, not significance tests. Source: DSEC.*
 
-### Limitation and next improvement
+## Limitations
 
-**Correlation does not prove causation.** Seasonality, common trends, travel restrictions, changes in hotel-room supply, and serial dependence may influence the results. Total arrivals include same-day visitors who may not use hotels. I plan to examine overnight arrivals, room supply, and seasonal or lagged relationships next.
+**Correlation does not prove causation.** Seasonality, common trends, public policy, travel restrictions, changes in hotel-room supply, and serial dependence are not fully controlled. The COVID-19 disruption may affect the overall correlation. These are monthly aggregate statistics, so the analysis cannot infer individual visitors' behaviour. Total arrivals include same-day visitors who may not use hotels.
+
+## Next improvements
+
+- Examine overnight arrivals and hotel-room supply.
+- Investigate seasonal and lagged relationships.
+- Check historical revisions and changes in series definitions before extending the analysis.
+
+The subperiod comparison for 2015–2019, 2020–2022, and 2023–2025 is already included above. A [data dictionary](https://github.com/DingHuiyuan-MC635708/data-science-project/blob/main/data/README.md) now explains the variables and units, alongside the [step-by-step reproduction guide](https://github.com/DingHuiyuan-MC635708/data-science-project#reproduce-the-analysis).
 
 ### Explore the work
 
@@ -59,3 +67,7 @@ The original CISC7204 Assignment 01 proposal is a pair project by **Ding Huiyuan
 The data source is [DSEC's Time Series Database](https://www.dsec.gov.mo/ts/), indicators 14023 and 13005. [DSEC's Tourism Statistics publication](https://www.dsec.gov.mo/getAttachment/499c7a1c-4b70-439e-a650-268f33dc0d27/E_TUR_FR_2025_Q4.aspx) permits reproduction of the statistical data when the source is quoted. No personal visitor or hotel records are published. Historical values can be revised; this analysis consistently uses its retained official snapshot.
 
 [AI assistance record](https://github.com/DingHuiyuan-MC635708/data-science-project/blob/main/AI_USAGE.md)
+
+## Peer review and improvement
+
+A classmate's feedback, supplied on 14 October 2026, correctly identified the question, the positive association, and the correlation-versus-causation limitation. Following the suggestion to make limitations more visible and improve reproducibility documentation, this version separates **Limitations** and **Next improvements** into prominent sections and links a new data dictionary. The existing subperiod comparison is retained. [Read the feedback and change record](https://github.com/DingHuiyuan-MC635708/data-science-project/blob/main/PEER_FEEDBACK.md).
