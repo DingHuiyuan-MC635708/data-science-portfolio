@@ -3,6 +3,8 @@ layout: default
 title: MC635708-Ding Huiyuan
 ---
 
+[Overview](#project-showcase) · [Methods](#analysis-methods) · [Findings](#main-finding) · [Limitations](#limitations) · [Code and evidence](#explore-the-work)
+
 ## About me
 
 I am Ding Huiyuan, a student taking CISC7204 Data Science and Data Visualization. This portfolio presents my ongoing coursework project and the Python analysis used to explore a real research question.
@@ -23,6 +25,14 @@ I am Ding Huiyuan, a student taking CISC7204 Data Science and Data Visualization
 **Status: Ongoing.** The reproducible descriptive analysis is available; seasonal, lagged, and room-supply analysis are future work.
 
 **Data:** 132 matched months of public aggregate statistics from the Macao Statistics and Census Service (DSEC). The complete official snapshot was retrieved on 13 October 2026.
+
+### Analysis methods
+
+1. Align DSEC visitor-arrival and hotel-occupancy series by calendar month for January 2015–December 2025.
+2. Check 132 consecutive unique months, missing values, plausible ranges, and exact agreement with the retained official response. No missing observations were imputed.
+3. Calculate descriptive statistics and Pearson correlations for all months and three specified periods; compare time-series, scatter, and correlation charts. The fitted line describes association, not a validated forecast.
+
+**At a glance:** 132 months · full-sample r = 0.947 · aggregate observational data cannot establish causation.
 
 ### Main finding
 
@@ -71,3 +81,9 @@ The data source is [DSEC's Time Series Database](https://www.dsec.gov.mo/ts/), i
 ## Peer review and improvement
 
 A classmate's feedback, supplied on 14 October 2026, correctly identified the question, the positive association, and the correlation-versus-causation limitation. Following the suggestion to make limitations more visible and improve reproducibility documentation, this version separates **Limitations** and **Next improvements** into prominent sections and links a new data dictionary. The existing subperiod comparison is retained. [Read the feedback and change record](https://github.com/DingHuiyuan-MC635708/data-science-project/blob/main/PEER_FEEDBACK.md).
+
+## Verification and assessment evidence
+
+[Reproduction record](https://github.com/DingHuiyuan-MC635708/data-science-project/blob/main/VALIDATION.md) · [Requirement checklist](https://github.com/DingHuiyuan-MC635708/data-science-project/blob/main/ASSESSMENT_CHECKLIST.md) · [Computed result table](https://github.com/DingHuiyuan-MC635708/data-science-project/blob/main/results/correlations.csv)
+
+Maintenance on 3 November 2026 restored the AI-assistance record, added direct feedback-commit links, explained the methods on this website, and made chart units and precision easier to read. These are later improvements; they do not change the original Moodle submission date.

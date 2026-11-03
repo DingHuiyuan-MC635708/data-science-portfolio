@@ -4,6 +4,7 @@ Portfolio repository for **CISC7204 Practice 09: Build Your Data Science Portfol
 
 The website introduces Ding Huiyuan, lists skills demonstrated in the project, and showcases an ongoing analysis of Macao visitor arrivals and hotel occupancy in 2015–2025. It includes three real visualizations, findings, limitations, attribution, and a link to the reproducible project repository.
 
+- [Live portfolio](https://dinghuiyuan-mc635708.github.io/data-science-portfolio/)
 - [Project repository](https://github.com/DingHuiyuan-MC635708/data-science-project)
 - [Website source](index.md)
 
